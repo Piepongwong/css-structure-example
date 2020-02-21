@@ -1,0 +1,46 @@
+body, html {
+	margin: 0;
+}
+nav {
+	padding: 15px;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #D99F18;
+	height: 3vh;
+	
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+.hero {
+	display: flex;
+	height: 97vh;
+	justify-content: center;
+	align-items: center;
+	background-image: url("./images/hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero h1 {
+	color: white;
+}
+
+.product-list {
+	height: 30vh;
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+}
+
+.product-list img {
+	display: inline-block;
+	-webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto; 
+}

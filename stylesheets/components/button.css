@@ -1,0 +1,13 @@
+button {
+    width: 200px;
+    border-radius: 10px;
+    height: 68px;
+}
+
+button.green {
+    background-color: green;
+}
+
+button.purple {
+    background-color: purple;
+}
