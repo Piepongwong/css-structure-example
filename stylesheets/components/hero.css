@@ -1,17 +1,14 @@
 .hero {
 	display: flex;
 	height: 97vh;
+	width: 100%;
 	justify-content: center;
 	align-items: center;
-	background-image: url("../images/hero.jpg");
+	background-image: url("../../images/hero.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .hero h1 {
-	color: white;
-}
-
-h1 {
-    color: yellow;
+	color: var(--main-text-color);
 }
