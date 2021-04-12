@@ -1,0 +1,51 @@
+body, html {
+	margin: 0;
+}
+
+nav {
+	padding: 15px;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #D99F18;
+	height: 3vh;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+nav a {
+	color: white;
+}
+
+/* Not 'scoped off' with a naming convention */
+a:hover {
+	color: blue;
+}
+
+.hero {
+	display: flex;
+	height: 97vh;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	background-image: url("./images/hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Effects all h1 everywhere */
+h1 {
+	color: white;
+}
+
+.product-list {
+	height: 30vh;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+/* Effects all images everywhere, also potential images that are not in product list */
+img {
+	padding: 2%;
+	flex-shrink: 1;
+}
