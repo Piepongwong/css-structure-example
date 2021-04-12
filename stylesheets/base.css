@@ -1,9 +1,0 @@
-body, html {
-	margin: 0;
-}
-
-:root {
-	--main-bg-color: #D99F18;
-	--main-text-color: white;
-	--secondary-text-color: blue;
-}
